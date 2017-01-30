@@ -1,0 +1,140 @@
+html { 
+   height: 100%;
+}
+body {
+   margin:0;
+   padding:0;
+   background-color: #0d2a59;   
+   background-position:fixed;
+   background-repeat:none;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: Arial;
+  font-weight: bold;
+}
+h1 {
+  font-size: 80px;
+}
+h2 {
+  font-size: 60px;
+}
+h3 {
+  font-size: 40px;
+}
+h4 {
+  font-size: 40px;
+}
+h5 {
+  font-size: 30px;
+}
+h6{
+  font-size: 20px;
+}
+subheading {
+  font-size: 50px;
+  color: 	#A9A9A9;
+  font-family: Arial;
+}
+ul {
+  list-style-type: none;
+  background-color: black;
+  border-radius: 4px;
+  padding: 15px;
+  float: center;
+  text-align:left;
+}
+ul code {
+  font-size: 30px;
+}
+code {
+  font-size: 20px;
+  background-color:black;
+  border-radius: 3px;
+}
+a {
+  text-decoration:none;
+  color: #4078c0;
+  -webkit-transition-duration:0.6s;
+  /*   Safari */
+  transition-duration:0.6s; 
+}
+a:hover {
+   text-decoration:underline;
+   color: #f5f5f5;
+}
+.howTo{
+  margin-top:1000px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-bottom: 50px;
+  padding-right: 40px;
+  padding-left: 40px;
+  background-color: #1B1D1E;
+  color: #f5f5f5;
+  font-family: 'Quicksand';
+  text-align:left;
+  font-size: 35px;
+}
+.howTo p{
+  font-size: 25px;
+  font-family:  'Quicksand';
+}
+.title {
+  text-align: center;
+}
+.btn {
+  padding:15px;
+  background-color:black;
+  color: white;
+  border-radius: 4px;
+  font-size: 40px;
+  font-family: 'Quicksand';
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+  -webkit-transition-duration: 0.7s;
+  transition-duration: 0.7s;
+}
+.btn a, visited {
+  padding: 15px;
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  font-size: 40px;
+  font-family: 'Quicksand';
+}
+#social {
+  bottom: 5%;
+  right: 5%;
+  position:fixed;
+  z-index: 100;
+  margin: 0;
+  padding: 0;
+}
+::selection {
+  color: white;
+  background: #68c0ff;
+}
+::moz-selection {
+ color: white;
+   background: #68c0ff;
+}
+.git-text {
+ padding-bottom: 20px;  
+}
+.MCS {
+ text-align: center;  
+}
+.followers {
+  bottom: 5%;
+  left: 5%;
+  position:fixed;
+  z-index: 100;
+  margin: 0;
+  padding: 0;  
+}
+@media only screen and (max-device-width: 1024px) {
+   
+}
