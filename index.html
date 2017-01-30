@@ -10,7 +10,7 @@
       <!-- Links -->
       <link rel="stylesheet" type="text/css" href="css/main.css">
       <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Quicksand" />
-      <link rel="stylesheet" type="text/css" href="css/cm.min.css">
+      <link rel="stylesheet" type="text/css" href="https://github.com/talonbragg/Custom-Markup/blob/master/dist/cm.min.css">
       <link rel="icon" href="img/cm.png">
       <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css"> -->
       <!-- Scripts -->
@@ -18,9 +18,12 @@
       <script src="smoothscroll.js"></script>
    </head>
    <body>
+      <div id="menu" class="menu">
+         <p><span><a href="#hcontent">About</a></span> <span><a href="#tags">Tags</a></span> <span><a href="#examples">Examples</a></span></p>
+      </div>
       <div id="social" class="social">
          <!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/talonbragg/Custom-Markup" data-icon="octicon-star" data-style="mega" data-count-href="/talonbragg/Custom-Markup/stargazers" data-count-api="/repos/talonbragg/Custom-Markup#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star talonbragg/Custom-Markup on GitHub">Star</a>
+         <a class="github-button" href="https://github.com/talonbragg/Custom-Markup" data-icon="octicon-star" data-style="mega" data-count-href="/talonbragg/Custom-Markup/stargazers" data-count-api="/repos/talonbragg/Custom-Markup#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star talonbragg/Custom-Markup on GitHub">Star</a>
       </div>
       <header class="title">
          <h1 style="color: white;">Custom Markup</h1>
@@ -43,7 +46,7 @@
             <a href="https://custommarkup.ml/dist/cm.zip" download>Download File</a>
             <hr width="50%" height="15px" align="left">
             <h3>Try It</h3>
-            <h5>Tags</h5>
+            <h5 id="tags">Tags</h5>
             <ul style="font-size:20px;">
                <li><code>&lt;c-r&gt;</code></li>
                <li><code>&lt;c-g&gt;</code></li>
@@ -81,7 +84,7 @@
                </ul>
             </div>
             <div>
-               <h5>Examples</h5>
+               <h5 id="Examples">Examples</h5>
                <hr width="50%" height="15px" align="left">
                <c-r>Red</c-r>
                <br>
