@@ -149,6 +149,6 @@ a:hover {
       font-size:30px;
    }
    #social {
-      float:right;
+      display:none;
    }
 }
