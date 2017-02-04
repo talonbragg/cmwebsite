@@ -24,11 +24,16 @@ $(document).ready(function(){
 });
 //TYPE FUNCTION
 
-  $(function(){
-      $("#type").typed({
-        strings: ["HTML.", "CSS."],
-        typeSpeed: 20
-      });
-  });
+	$(function(){
+
+		$(".type").typed({
+			strings: ["HTML", "CSS"],
+			typeSpeed: 30,
+      callback: function(){
+        shift();
+      }
+		});
+
+	});
 
 
