@@ -27,7 +27,7 @@ $(document).ready(function(){
   $(function(){
       $("#type").typed({
         strings: ["HTML.", "CSS."],
-        typeSpeed: 0
+        typeSpeed: 1
       });
   });
 
