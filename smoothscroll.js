@@ -22,5 +22,13 @@ $(document).ready(function(){
     } // End if
   });
 });
+//TYPE FUNCTION
+
+  $(function(){
+      $("#type").typed({
+        strings: ["HTML.", "CSS."],
+        typeSpeed: 0
+      });
+  });
 
 
