@@ -153,4 +153,9 @@ a:hover {
       display:none;
    }
 }
+#logo {
+   top:2%;
+   left:2%;
+   position:fixed;
+}
 
