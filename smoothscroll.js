@@ -36,4 +36,12 @@ $(document).ready(function(){
 
 	});
 
-
+// Scroll Hide Logo
+$(document).ready(function() {
+	$('body').load(function() {
+		$('#logo').show();	
+	});
+	$('body').scroll(function() {
+		$('#logo').fadeOut('slow', 3000);
+	});
+});
